@@ -15,7 +15,7 @@
 # Idea: hourly winner notification (but don't store)
 
 namespace eval ::games::countdown {
-	variable game_channel "#alain"
+	variable game_channel "#game"
 	variable command_char "!"
 	variable use_notice 1
 	variable round_time 30
@@ -41,10 +41,10 @@ namespace eval ::games::countdown {
     variable script_name "World Scrabble Script"
     variable script_version "1.5.8"
     variable script_author "World Scrabble Script"
-	variable script_email "kasikas.ako@gmail.com"
+	variable script_email "isfan.dodent@gmail.com"
 	
-	variable data_dir "scripts/countdown"
-	variable dictionary_file "$data_dir/dictionary"
+	variable data_dir "scripts/"
+	variable dictionary_file "$data_dir/Scrabble.db"
 	variable scores_file "$data_dir/scores"
 	variable config_file "$data_dir/config"
 	variable game_status 1
